@@ -57,6 +57,10 @@ app.post('/api/send_text_message', function(req, res) {
 
 });
 
+app.post('/api/support/messages', function(req, res) {
+    
+
+});
 
 app.listen(port, function() {
     console.log("Listening on port " + port);
